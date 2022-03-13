@@ -1,19 +1,28 @@
+#GIT in local(to add file to your git)
+#open path <cd/desktop/newfolder/folder_name>
 git init -- to initialize
 git status -- check status
 git add file_name -- staging file
 git commit -m 'message' -- saving staged file with message
+#so now file has been added to your git
+
 git restore --staged -- deleting staged file
 git log -- checking deleted and commited file
 git revert (whatever committed in git log) -- reverting deleted file
-to move back in terminal  -- cd ..
+
+#to move back in terminal  -- cd ..
+
 git checkout -b <branchname> -- to switch to the new branch and copy all the code
 git checkout <branchname> -- switch to existing branch
 git branch -- shows all branch
 
-git clone (code path from github repo) -- open file in terminal
+#GITHUB 
+#(to add new file from github to your local)
+#(creating new repo on github, creating new file)
+git clone (copy code path from github repo) -- open file in terminal
 git add <filename>
 git commit -m 'msg'
 git push -- to push all new data to github report
-#you add some code or made some changes in local or your system, so now if we use command <git status>, it will show modified file <filename>, so we need to add it, commit it & push it again
+#when you add some code or made some changes in local or your system, so now if we use command <git status>, it will show modified file <filename>, so we need to add it, commit it & push it again to push all new data to github report
 
 git pull -- when you add some code or made some changes on github, so now if we use command <git status>, it will show modified file <filename>, so we use command <git pull> to pull data from github to local
