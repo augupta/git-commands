@@ -8,5 +8,9 @@ git revert (whatever committed in git log) -- reverting deleted file
 to move back in terminal  -- cd ..
 git checkout -b <branchname> -- to switch to the new branch and copy all the code
 git checkout <branchname> -- switch to existing branch
-git branch -- shows all branch 
+git branch -- shows all branch
+
 git clone (code path from github repo) -- open file in terminal
+git add <filename>
+git commit -m 'msg'
+git push -- to push all new data to github repo
