@@ -7,6 +7,7 @@ git commit -m 'message' -- saving staged file with message
 #so now file has been added to your git
 
 git restore --staged -- deleting staged file
+git restore <filename>  -- restore deleted file
 git log -- checking deleted and commited file
 git revert (whatever committed in git log) -- reverting deleted file
 
