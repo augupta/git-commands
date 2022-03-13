@@ -13,4 +13,5 @@ git branch -- shows all branch
 git clone (code path from github repo) -- open file in terminal
 git add <filename>
 git commit -m 'msg'
-git push -- to push all new data to github repo
+git push -- to push all new data to github report
+#you add some code or made some changes, so now if we use command <git status>, it will show modified file <filename>, so we need to add it, commit it & push it again
