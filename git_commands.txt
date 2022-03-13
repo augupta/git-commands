@@ -20,6 +20,7 @@ git branch -- shows all branch
 #(to add new file from github to your local)
 #(creating new repo on github, creating new file)
 git clone (copy code path from github repo) -- open file in terminal
+#(after cloning, open file path in your terminal, so we can push or pull)
 git add <filename>
 git commit -m 'msg'
 git push -- to push all new data to github report
