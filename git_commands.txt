@@ -1,1 +1,12 @@
-git init
+git init -- to initialize
+git status -- check status
+git add file_name -- staging file
+git commit -m 'message' -- saving staged file with message
+git restore --staged -- deleting staged file
+git log -- checking deleted and commited file
+git revert (whatever committed in git log) -- reverting deleted file
+to move back in terminal  -- cd ..
+git checkout -b <branchname> -- to switch to the new branch and copy all the code
+git checkout <branchname> -- switch to existing branch
+git branch -- shows all branch 
+git clone (code path from github repo) -- open file in terminal
