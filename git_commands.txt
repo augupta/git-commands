@@ -19,10 +19,11 @@ git branch -- shows all branch
 
 #GITHUB 
 #(to add new file from github to your local)
-#(creating new repo on github, creating new file)
-git clone (copy code path from github repo) -- open file in terminal
+#(creating new repo on github)
+git clone (copy code path from github of new repo) -- open file in terminal
 #(after cloning, open file path in your terminal, so we can push or pull)
-git add <filename>
+creating new txt/.py etc file inside new repo in terminal by command mkdir
+git add <new txt/.py filename>
 git commit -m 'msg'
 git push -- to push all new data to github report
 #when you add some code or made some changes in local or your system, so now if we use command <git status>, it will show modified file <filename>, so we need to add it, commit it & push it again to push all new data to github report
