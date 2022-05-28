@@ -12,6 +12,7 @@ git log -- checking deleted and commited file
 git revert (whatever committed in git log) -- reverting deleted file
 
 #to move back in terminal  -- cd ..
+#to make new directory in terminal  mkdir dirname
 
 git checkout -b <branchname> -- to switch to the new branch and copy all the code
 git checkout <branchname> -- switch to existing branch
